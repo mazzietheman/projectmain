@@ -72,8 +72,8 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Communities</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="community.html">Communities</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Search</a></li>
                 </ul>
             </div>
@@ -128,8 +128,8 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Green Energy</h5>
-                        <p class="card-text">Help reduce waste and earn carbon credits.</p>
-                        <a href="#" class="btn btn-success">Read More</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+                        <button onclick="myFunction()" id="myBtn">Read more</button>
                     </div>
                 </div>
             </div>
@@ -137,7 +137,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Blue Energy</h5>
-                        <p class="card-text">Protect forests and promote green ecosystems.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
                         <a href="#" class="btn btn-success">Read More</a>
                     </div>
                 </div>
@@ -172,15 +172,7 @@
                 btnText.innerHTML = "Read less";
                 moreText.style.display = "inline";
             }
-        }
-
-        window.addEventListener("scroll", function () {
-        if (window.scrollY > 500) { // Change 500 to the desired scroll threshold
-            window.location.href = "community.html";
-        }
-    });
-
-        
+        }     
     </script>
 
 </body>
